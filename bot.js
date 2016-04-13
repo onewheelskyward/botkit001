@@ -1,3 +1,6 @@
+// First try of a botkit bot, based on
+// https://github.com/howdyai/botkit/blob/master/slack_bot.js
+
 var config = require('./config.json');
 
 if (!config.token) {
